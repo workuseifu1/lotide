@@ -7,10 +7,10 @@ const assertEqual = function(actual, expected) {
 };
 const head = function(array) {
   let firstArray = "";
-  for(let i = 0 ; i < array.length ; i++){
+  for (let i = 0 ; i < array.length ; i++) {
     firstArray = array[0];
   }
   return firstArray;
 };
-assertEqual(head([]), 5);
+assertEqual(head([5,6,7]), 5);
 assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");

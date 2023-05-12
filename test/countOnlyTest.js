@@ -2,7 +2,7 @@ const assert = require('chai').assert;
 const index = require('../index');
 
 describe("#countOnly", () => {
-  it("returns [1] for for the position of 'e' in 'hello'", () => {
+  it("returns 1 for the count of 'Jason' in an array of name list ", () => {
     assert.strictEqual(index.countOnly(([
       'Karl',
       'Salima',
